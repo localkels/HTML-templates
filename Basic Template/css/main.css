@@ -1,10 +1,11 @@
 /* FONTS --------------------------*/
-
+@import url(http://fonts.googleapis.com/css?family=Lusitana:400,700|Quando);
 
 /* GENERAL --------------------------*/
 
 body {
     background: #ccc;
+    font-family: 'Lusitana', serif;
 }
 
 img {
@@ -13,12 +14,17 @@ img {
 }
 
 p {
-    margin: 20px 30px;
+    margin: 5% 9%;
 }
 
-nav li {
+nav ul {
+    margin: 20px auto;
+    
+}
+nav li, footer li {
     display: inline-block;
 }
+
 
 /* Classes --------------------------*/
 
@@ -28,6 +34,8 @@ nav li {
 /* IDs --------------------------*/
 
 #title {
+    font-family: 'Quando', serif;
+    color: #333;
     text-align: center;
     margin: 60px 0;
 }
@@ -37,5 +45,10 @@ nav li {
     background: #fff;
     width: 90%;
     margin: auto;
+}
+
+#wrapper h1 {
+    margin-left: 5%;
+    color: pink;
 }
 
