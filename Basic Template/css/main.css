@@ -1,3 +1,6 @@
+/* FONTS --------------------------*/
+
+
 /* GENERAL --------------------------*/
 
 body {
@@ -5,5 +8,34 @@ body {
 }
 
 img {
+    display: block;
     width: 100%;
 }
+
+p {
+    margin: 20px 30px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+/* Classes --------------------------*/
+
+
+
+
+/* IDs --------------------------*/
+
+#title {
+    text-align: center;
+    margin: 60px 0;
+}
+
+#wrapper {
+    
+    background: #fff;
+    width: 90%;
+    margin: auto;
+}
+
