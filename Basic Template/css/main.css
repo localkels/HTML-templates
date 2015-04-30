@@ -8,6 +8,10 @@ body {
     font-family: 'Lusitana', serif;
 }
 
+section {
+    
+}
+
 img {
     display: block;
     width: 100%;
@@ -40,8 +44,15 @@ nav a:hover, footer a:hover {
 }
 
 /* Classes --------------------------*/
+header {
+    margin: 0;
+    padding: 0;
+}
 
-
+header h1 {
+    position: absolute;
+    margin: auto;
+}
 
 
 /* IDs --------------------------*/
