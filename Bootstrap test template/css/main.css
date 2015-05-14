@@ -1,7 +1,11 @@
 body {
-
+	height: 100%;
 }
 
 header {
+	height: 100vh;
 	background: #385ECB;
+	padding-top: 10%;
+	margin: 0;
+	text-align: center;
 }
