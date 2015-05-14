@@ -1,11 +1,29 @@
 body {
+	background: #DADADA;
 	height: 100%;
 }
 
 header {
 	height: 100vh;
-	background: #385ECB;
-	padding-top: 10%;
+	background: #3FABC5;
 	margin: 0;
 	text-align: center;
+	color: #fff;
+
 }
+
+header h1 {
+	position: absolute;
+	top: 40%;
+	bottom: auto;
+	left: 0;
+	right: 0;
+}
+
+ header p {
+ 	position: absolute;
+	top: 48%;
+	bottom: auto;
+	left: 0;
+	right: 0;
+ }
